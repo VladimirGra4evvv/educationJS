@@ -74,3 +74,5 @@ console.log(budgetMonth);
 
 mission = mission/budgetMonth;
 console.log('Цель будет достигнута за: ' + mission.toFixed(0) + ' мес');
+
+budgetDay = Math.trunc(money/30);
